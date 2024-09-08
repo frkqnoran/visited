@@ -1,0 +1,244 @@
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+/* Header, body'nin en üstüne yerleşsin */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Sayfa boyunca elementleri yerleştirmek için */
+    min-height: 100vh; /* Sayfanın yüksekliği kadar ortalama */
+    background-color: white;
+}
+
+.container {
+    width: 738px;
+    background-color: white;
+    margin: 0 auto;
+    padding-bottom: 20px; /* Footer'ın içeriklere dokunmaması için */
+    flex-grow: 1; /* Sayfanın ana kısmının genişlemesi */
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0; /* Sadece yatay padding bırakıldı, üstten boşluk kaldırıldı */
+    background-color: white;
+    margin-top: 0; /* Üstten boşluğu sıfırlıyoruz */
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.logo {
+    color: #222222;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #222222;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+main {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.intro {
+    padding-left: 20px;
+}
+
+.intro h1 {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.intro h2 {
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #222222;
+    margin-top: 1em;
+}
+
+.intro h2 a {
+    color: #222222;
+    text-decoration: none;
+}
+
+.intro h2 a:hover {
+    color: #888888; /* Üzerine gelindiğinde gri renk */
+}
+
+.intro h3 {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #222222;
+    margin-top: 1em;
+    line-height: 1.7; /* Satır yüksekliği */
+    max-width: 600px; /* Maksimum genişlik */
+    overflow-wrap: break-word; /* Uzun kelimelerin kırılmasını sağlar */
+}
+
+.social-media {
+    margin-top: 25px; /* h3 ile arasında 25px boşluk */
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px; /* Social medya ile blog arasına 40px boşluk bırakır */
+}
+
+.social-media a {
+    margin-right: 10px; /* Sosyal medya ikonları arasında 10px boşluk */
+}
+
+.social-media img {
+    width: 27px;
+    height: 27px;
+    display: block; /* Resmin üstünde tıklama alanı genişletir */
+}
+
+section#blog {
+    width: 698px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px; /* Blog kısmının altına 60px boşluk bırakır */
+}
+
+section#blog h2 {
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #222222;
+    margin-top: 0;
+}
+
+section#blog .blog-entry {
+    margin-bottom: 20px;
+}
+
+section#blog .blog-entry h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #222222;
+    margin: 0;
+}
+
+section#blog .blog-entry p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #222222;
+    line-height: 1.7; /* Satır yüksekliği */
+}
+
+footer {
+    width: 698px;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    font-size: 15px;
+    color: #222222;
+    border-top: 1px solid #ddd;
+    line-height: 1.7;
+}
+
+footer p {
+    margin: 0;
+    line-height: 1.7; /* Satır yüksekliği, "Currently in" ve "Kirikkale, Turkey" arasındaki boşluk için */
+}
+
+section#blog a {
+    color: #222222; /* Index.html'deki link rengi */
+    text-decoration: none;
+}
+
+section#blog a:hover {
+    color: #888888; /* Hover durumunda renk değişimi */
+}
+
+/* Sayfa numaraları ve geçiş düğmeleri için stil */
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Butonlar ve sayfa numaraları arasında boşluk */
+    margin-top: 20px;
+}
+
+#pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #222222;
+    font-size: 16px;
+}
+
+#pagination a.active {
+    font-weight: bold;
+    color: #555555;
+}
+
+#pagination a:hover {
+    color: #888888;
+}
+
+#pagination button {
+    margin: 0 5px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#pagination button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+#pagination button, #pagination a {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #222222;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px; /* Köşeleri yuvarla */
+}
+
+#pagination button:hover, #pagination a:hover {
+    background-color: #f0f0f0; /* Hover durumunda arka plan rengi değişir */
+}
+
+#pagination .active {
+    font-weight: bold;
+    color: #555555; /* Aktif sayfa numarasının rengi */
+    background-color: #e0e0e0; /* Aktif sayfa numarasının arka plan rengi */
+}

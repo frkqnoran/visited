@@ -1,0 +1,273 @@
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Sayfa boyunca elementleri yerleştirmek için */
+    min-height: 100vh; /* Sayfanın yüksekliği kadar ortalama */
+    background-color: white;
+}
+
+.container {
+    width: 738px;
+    background-color: white;
+    margin: 0 auto;
+    padding-bottom: 20px; /* Footer'ın içeriklere dokunmaması için */
+    flex-grow: 1; /* Sayfanın ana kısmının genişlemesi */
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0; /* Sadece yatay padding bırakıldı, üstten boşluk kaldırıldı */
+    background-color: white;
+    margin-top: 0; /* Üstten boşluğu sıfırlıyoruz */
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    color: #222222;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #222222;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+/* Map container */
+#map-container {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 40px auto;
+    position: relative;
+}
+
+#world-map {
+    width: 100%;
+    height: auto;
+}
+
+/* Tooltip stil */
+.country-tooltip {
+    position: absolute;
+    background-color: #fdf5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: none;
+    z-index: 1000; /* Tooltip'in diğer içeriklerin üstünde olması için */
+    white-space: nowrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölgeli görünüm */
+    border-radius: 4px; /* Köşeleri yuvarlama */
+    max-width: 400px; /* Tooltip genişliğini sınırlamak için */
+    text-align: left; /* Metni sola hizalar */
+}
+
+.country-tooltip .tooltip-content {
+    display: flex;
+    align-items: center; /* İçerikleri dikeyde ortalar */
+}
+
+.country-tooltip .tooltip-content .flag {
+    width: 48px; /* Bayrağın boyutunu büyütün */
+    height: 36px; /* Bayrağın yüksekliğini büyütün */
+    margin-right: 10px; /* Bayrak ve ismi ayırmak için */
+}
+
+.country-tooltip .tooltip-content .name {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.country-tooltip .visited-text {
+    display: block;
+    text-align: center; /* "First time" metnini ortalar */
+    font-size: 18px;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* "Show" metni stili */
+.show-photo {
+    color: #222222; /* Diğer yazılarla aynı renk */
+    text-decoration: underline; /* Altı çizili */
+    font-size: 17px; /* Diğer yazılarla aynı font boyutu */
+}
+
+.show-photo:hover {
+    color: #000000; /* Hover durumunda renk değişimi */
+}
+
+/* Tooltip stil */
+.photo-tooltip {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.photo-tooltip .tooltip-content {
+    position: relative;
+}
+
+.photo-tooltip img {
+    max-width: 100%;
+    height: auto;
+}
+
+.photo-tooltip .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    #map-container {
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+    .country-tooltip {
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    .country-tooltip .tooltip-content .flag {
+        width: 28px; /* Küçük ekranlarda bayrağın boyutunu ayarlayın */
+        height: 20px; /* Küçük ekranlarda bayrağın yüksekliğini ayarlayın */
+        margin-right: 5px; /* Bayrak ve ismi ayırmak için */
+    }
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Butonlar ve sayfa numaraları arasında boşluk */
+    margin-top: 20px;
+}
+
+#pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #222222;
+    font-size: 16px;
+}
+
+#pagination a.active {
+    font-weight: bold;
+    color: #555555;
+}
+
+#pagination a:hover {
+    color: #888888;
+}
+
+#pagination button {
+    margin: 0 5px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#pagination button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+#pagination button, #pagination a {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #222222;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px; /* Köşeleri yuvarla */
+}
+
+#pagination button:hover, #pagination a:hover {
+    background-color: #f0f0f0; /* Hover durumunda arka plan rengi değişir */
+}
+
+#pagination .active {
+    font-weight: bold;
+    color: #555555; /* Aktif sayfa numarasının rengi */
+    background-color: #e0e0e0; /* Aktif sayfa numarasının arka plan rengi */
+}
+
+/* Tablo stili */
+table {
+    width: 100%; /* Tablonun genişliği konteyner genişliğine göre ayarlanır */
+    border-collapse: collapse;
+    background-color: white;
+    table-layout: fixed; /* Tablo hücrelerinin genişliğini sabitlemek için */
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    /* Sabit genişlikler ekleyin */
+    width: 20%; /* Her hücrenin genişliğini eşit olarak ayarlayın, toplam %100 olacak şekilde */
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+/* Genişlikleri belirlemek için özel sınıflar */
+.column-name {
+    width: 30%; /* İsim sütunu genişliği */
+}
+
+.column-status {
+    width: 15%; /* Durum sütunu genişliği */
+}
+
+.column-start-time {
+    width: 20%; /* Başlangıç zamanı sütunu genişliği */
+}
+
+.column-end-time {
+    width: 20%; /* Bitiş zamanı sütunu genişliği */
+}
+
+.column-photo {
+    width: 15%; /* Fotoğraf sütunu genişliği */
+}
+
+.column-status {
+    background-color: #007bff; /* Mavi arka plan */
+}

@@ -1,0 +1,180 @@
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+/* Header, body'nin en üstüne yerleşsin */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Sayfa boyunca elementleri yerleştirmek için */
+    min-height: 100vh; /* Sayfanın yüksekliği kadar ortalama */
+    background-color: white;
+}
+
+.container {
+    width: 738px;
+    background-color: white;
+    margin: 0 auto;
+    padding-bottom: 20px; /* Footer'ın içeriklere dokunmaması için */
+    flex-grow: 1; /* Sayfanın ana kısmının genişlemesi */
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0; /* Sadece yatay padding bırakıldı, üstten boşluk kaldırıldı */
+    background-color: white;
+    margin-top: 0; /* Üstten boşluğu sıfırlıyoruz */
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    color: #222222;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #222222;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+main {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+/* Blog Postları Bölümü */
+section#blog-entries {
+    padding: 20px 0;
+}
+
+.blog-entry {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Başlık ve içerik arasına 30px margin ekleyin */
+.blog-entry h3 + p {
+    margin-top: 20px;
+}
+
+.blog-entry h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+}
+
+.blog-entry h2 a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.blog-entry h2 a:hover {
+    color: #555555;
+}
+
+.blog-entry p {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Footer Stili */
+footer {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    font-size: 15px;
+    color: #222222;
+    border-top: 1px solid #ddd;
+    line-height: 1.7;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Blog Kısmı için Stil Ayarları */
+section#blog {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px; /* Blog kısmının altına 60px boşluk bırakır */
+    padding-top: 0px;
+}
+
+section#blog h2 {
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #222222;
+    margin-top: 0;
+}
+
+section#blog .blog-entry {
+    margin-bottom: 20px;
+}
+
+section#blog .blog-entry h3 {
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #222222;
+    margin: 0;
+}
+
+section#blog .blog-entry p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #222222;
+    line-height: 1.7; /* Satır yüksekliği */
+}
+
+section#blog a {
+    color: #222222; /* Blog link rengi */
+    text-decoration: none;
+}
+
+section#blog a:hover {
+    color: #888888; /* Hover durumunda renk değişimi */
+}
+
+section#blog h2 {
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #222222;
+}
+
+.logo {
+    color: #222222;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}

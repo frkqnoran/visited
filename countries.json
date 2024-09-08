@@ -1,0 +1,1536 @@
+[
+    { 
+        "id": "AD",
+	    "name": "Andorra", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "AE",
+        "name": "United Arab Emirates",  
+        "visited": "" 
+    },
+
+    { 
+        "id": "AF",
+	    "name": "Afghanistan",  
+        "visited": "" },
+
+    { 
+        "id": "AG",
+	    "name": "Antigua and Barbuda",  
+        "visited": "" 
+    },
+
+    { 
+        "id": "AI",
+	    "name": "Anguilla",  
+        "visited": "" 
+    },
+
+    { 
+        "id": "AL",
+	    "name": "Albania",  
+        "visited": "" 
+    },
+
+    { 
+        "id": "AM",
+	    "name": "Armenia",  
+        "visited": "" 
+    },
+
+    { 
+        "id": "AO",
+	    "name": "Angola",  
+        "visited": "" 
+    },
+
+    { 
+        "id": "AR",
+	    "name": "Argentina",  
+        "visited": "" 
+    },
+
+    { 
+        "id": "AS",
+	    "name": "American Samoa",  
+        "visited": "" 
+    },
+
+    { 
+        "id": "AT",
+	    "name": "Austria",  
+        "visited": "11.09.2019" 
+    },
+
+    { 
+        "id": "AU",
+	    "name": "Australia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "AW",
+	    "name": "Aruba", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "AX",
+	    "name": "Aland Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "AZ",
+	    "name": "Azerbaijan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BA",
+	    "name": "Bosnia and Herzegovina", 
+        "visited": "01.08.2022" 
+    },
+
+    { 
+        "id": "BB",
+		"name": "Barbados", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BD",
+		"name": "Bangladesh", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BE",
+		"name": "Belgium", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BF",
+		"name": "Burkina Faso", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BG",
+		"name": "Bulgaria", 
+        "visited": "27.07.2022" 
+    },
+
+    { 
+        "id": "BH",
+		"name": "Bahrain", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BI",
+		"name": "Burundi", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BJ",
+		"name": "Benin", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BL",
+		"name": "Saint Barthelemy", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BN",
+		"name": "Brunei Darussalam", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BO",
+		"name": "Bolivia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BM",
+		"name": "Bermuda", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BQ",
+		"name": "Bonaire,  Saint Eustachius and Saba", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BR",
+		"name": "Brazil", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BS",
+		"name": "Bahamas", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BT",
+		"name": "Bhutan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BV",
+		"name": "Bouvet Island", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BW",
+		"name": "Botswana", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BY",
+		"name": "Belarus", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "BZ",
+		"name": "Belize", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CA",
+		"name": "Canada", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CC",
+		"name": "Cocos  (Keeling)  Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CD",
+		"name": "Democratic Republic of Congo", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CF",
+		"name": "Central African Republic", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CG",
+		"name": "Republic of Congo", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CH",
+		"name": "Switzerland", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CI",
+		"name": "Côte d'Ivoire", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CK",
+		"name": "Cook Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CL",
+		"name": "Chile", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CM",
+		"name": "Cameroon", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CN",
+		"name": "China", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CO",
+		"name": "Colombia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CR",
+		"name": "Costa Rica", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CU",
+		"name": "Cuba", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CV",
+		"name": "Cape Verde", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CW",
+		"name": "Curaçao", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CX",
+		"name": "Christmas Island", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CY",
+		"name": "Cyprus", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "CZ",
+		"name": "Czech Republic", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "DE",
+		"name": "Germany", 
+        "visited": "20.02.2022" 
+    },
+
+    { 
+        "id": "DJ",
+		"name": "Djibouti", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "DK",
+		"name": "Denmark", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "DM",
+		"name": "Dominica", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "DO",
+		"name": "Dominican Republic", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "DZ",
+		"name": "Algeria", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "EC",
+		"name": "Ecuador", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "EG",
+		"name": "Egypt", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "EE",
+		"name": "Estonia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "EH",
+		"name": "Western Sahara", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "ER",
+		"name": "Eritrea", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "ES",
+		"name": "Spain", 
+        "visited": "24.02.2022" 
+    },
+
+    { 
+        "id": "ET",
+		"name": "Ethiopia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "FI",
+		"name": "Finland", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "FJ",
+		"name": "Fiji", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "FK",
+		"name": "Falkland Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "FM",
+		"name": "Federated States of Micronesia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "FO",
+		"name": "Faroe Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "FR",
+		"name": "France", 
+        "visited": "28.07.2022" 
+    },
+
+    { 
+        "id": "GA",
+		"name": "Gabon", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GB",
+		"name": "United Kingdom", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GE",
+		"name": "Georgia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GD",
+		"name": "Grenada", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GF",
+		"name": "French Guiana", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GG",
+		"name": "Guernsey", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GH",
+		"name": "Ghana", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GI",
+		"name": "Gibraltar", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GL",
+		"name": "Greenland", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GM",
+		"name": "Gambia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GN",
+		"name": "Guinea", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GO",
+		"name": "Glorioso Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GP",
+		"name": "Guadeloupe", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GQ",
+		"name": "Equatorial Guinea", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GR",
+		"name": "Greece", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GS",
+		"name": "South Georgia and South Sandwich Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GT",
+		"name": "Guatemala", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GU",
+		"name": "Guam", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GW",
+		"name": "Guinea-Bissau", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "GY",
+		"name": "Guyana", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "HK",
+		"name": "Hong Kong", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "HM",
+		"name": "Heard Island and McDonald Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "HN",
+		"name": "Honduras", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "HR",
+		"name": "Croatia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "HT",
+		"name": "Haiti", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "HU",
+		"name": "Hungary", 
+        "visited": "10.01.2022" 
+    },
+
+    { 
+        "id": "ID",
+		"name": "Indonesia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "IE",
+		"name": "Ireland", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "IL",
+		"name": "Israel", 
+        "visited": "01.02.2023" 
+    },
+
+    { 
+        "id": "IM",
+		"name": "Isle of Man", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "IN",
+		"name": "India", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "IO",
+		"name": "British Indian Ocean Territory", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "IQ",
+		"name": "Iraq", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "IR",
+		"name": "Iran", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "IS",
+		"name": "Iceland", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "IT",
+		"name": "Italy", 
+        "visited": "27.12.2021" 
+    },
+
+    { 
+        "id": "JE",
+		"name": "Jersey", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "JM",
+		"name": "Jamaica", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "JO",
+		"name": "Jordan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "JP",
+		"name": "Japan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "JU",
+		"name": "Juan De Nova Island", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "KE",
+		"name": "Kenya", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "KG",
+		"name": "Kyrgyzstan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "KH",
+		"name": "Cambodia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "KI",
+		"name": "Kiribati", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "KM",
+		"name": "Comoros", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "KN",
+		"name": "Saint Kitts and Nevis", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "KP",
+		"name": "North Korea", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "KR",
+		"name": "South Korea", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "XK",
+		"name": "Kosovo", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "KW",
+		"name": "Kuwait", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "KY",
+		"name": "Cayman Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "KZ",
+		"name": "Kazakhstan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "LA",
+		"name": "Lao People's Democratic Republic", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "LB",
+		"name": "Lebanon", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "LC",
+		"name": "Saint Lucia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "LI",
+		"name": "Liechtenstein", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "LK",
+		"name": "Sri Lanka", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "LR",
+		"name": "Liberia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "LS",
+		"name": "Lesotho", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "LT",
+		"name": "Lithuania", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "LU",
+		"name": "Luxembourg", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "LV",
+		"name": "Latvia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "LY",
+		"name": "Libya", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MA",
+		"name": "Morocco", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MC",
+		"name": "Monaco", 
+        "visited": "28.07.2022" 
+    },
+
+    { 
+        "id": "MD",
+		"name": "Moldova", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MG",
+		"name": "Madagascar", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "ME",
+		"name": "Montenegro", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MF",
+		"name": "Saint Martin", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MH",
+		"name": "Marshall Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MK",
+		"name": "Macedonia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "ML",
+		"name": "Mali", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MO",
+		"name": "Macau", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MM",
+		"name": "Myanmar", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MN",
+		"name": "Mongolia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MP",
+		"name": "Northern Mariana Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MQ",
+		"name": "Martinique", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MR",
+		"name": "Mauritania", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MS",
+		"name": "Montserrat", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MT",
+		"name": "Malta", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MU",
+		"name": "Mauritius", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MV",
+		"name": "Maldives", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MW",
+		"name": "Malawi", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MX",
+		"name": "Mexico", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MY",
+		"name": "Malaysia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "MZ",
+		"name": "Mozambique", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "NA",
+		"name": "Namibia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "NC",
+		"name": "New Caledonia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "NE",
+		"name": "Niger", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "NF",
+		"name": "Norfolk Island", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "NG",
+		"name": "Nigeria", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "NI",
+		"name": "Nicaragua", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "NL",
+		"name": "Netherlands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "NO",
+		"name": "Norway", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "NP",
+		"name": "Nepal", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "NR",
+		"name": "Nauru", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "NU",
+		"name": "Niue", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "NZ",
+		"name": "New Zealand", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "OM",
+		"name": "Oman", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "PA",
+		"name": "Panama", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "PE",
+		"name": "Peru", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "PF",
+		"name": "French Polynesia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "PG",
+		"name": "Papua New Guinea", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "PH",
+		"name": "Philippines", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "PK",
+		"name": "Pakistan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "PL",
+		"name": "Poland", 
+        "visited": "14.02.2022" 
+    },
+
+    { 
+        "id": "PM",
+		"name": "Saint Pierre and Miquelon", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "PN",
+		"name": "Pitcairn Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "PR",
+		"name": "Puerto Rico", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "PS",
+		"name": "Palestinian Territories", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "PT",
+		"name": "Portugal", 
+        "visited": "15.10.2021" 
+    },
+
+    { 
+        "id": "PW",
+		"name": "Palau", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "PY",
+		"name": "Paraguay", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "QA",
+		"name": "Qatar", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "RE",
+		"name": "Reunion", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "RO",
+		"name": "Romania", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "RS",
+		"name": "Serbia", 
+        "visited": "03.08.2022" 
+    },
+
+    { 
+        "id": "RU",
+		"name": "Russia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "RW",
+		"name": "Rwanda", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SA",
+		"name": "Saudi Arabia", 
+        "visited": "06.11.2008" 
+    },
+
+    { 
+        "id": "SB",
+		"name": "Solomon Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SC",
+		"name": "Seychelles", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SD",
+		"name": "Sudan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SE",
+		"name": "Sweden", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SG",
+		"name": "Singapore", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SH",
+		"name": "Saint Helena", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SI",
+		"name": "Slovenia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SJ",
+		"name": "Svalbard and Jan Mayen", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SK",
+		"name": "Slovakia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SL",
+		"name": "Sierra Leone", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SM",
+		"name": "San Marino", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SN",
+		"name": "Senegal", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SO",
+		"name": "Somalia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SR",
+		"name": "Suriname", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SS",
+		"name": "South Sudan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "ST",
+		"name": "Sao Tome and Principe", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SV",
+		"name": "El Salvador", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SX",
+		"name": "Saint Martin", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SY",
+		"name": "Syria", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "SZ",
+		"name": "Swaziland", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TC",
+		"name": "Turks and Caicos Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TD",
+		"name": "Chad", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TF",
+		"name": "French Southern and Antarctic Lands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TG",
+		"name": "Togo", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TH",
+		"name": "Thailand", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TJ",
+		"name": "Tajikistan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TK",
+		"name": "Tokelau", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TL",
+		"name": "Timor-Leste", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TM",
+		"name": "Turkmenistan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TN",
+		"name": "Tunisia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TO",
+		"name": "Tonga", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TR",
+		"name": "Turkey", 
+        "visited": "09.07.2001" 
+    },
+
+    { 
+        "id": "TT",
+		"name": "Trinidad and Tobago", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TV",
+		"name": "Tuvalu", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TW",
+		"name": "Taiwan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "TZ",
+		"name": "Tanzania", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "UA",
+		"name": "Ukraine", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "UG",
+		"name": "Uganda", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "UM-DQ",
+		"name": "Jarvis Island", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "UM-FQ",
+		"name": "Baker Island", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "UM-HQ",
+		"name": "Howland Island", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "UM-JQ",
+		"name": "Johnston Atoll", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "UM-MQ",
+		"name": "Midway Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "UM-WQ",
+		"name": "Wake Island", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "US",
+		"name": "United States",
+        "visited": "" 
+    },
+
+    { 
+        "id": "UY",
+		"name": "Uruguay", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "UZ",
+		"name": "Uzbekistan", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "VA",
+		"name": "Vatican City", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "VC",
+		"name": "Saint Vincent and the Grenadines", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "VE",
+		"name": "Venezuela", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "VG",
+		"name": "British Virgin Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "VI",
+		"name": "US Virgin Islands", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "VN",
+		"name": "Vietnam", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "VU",
+		"name": "Vanuatu", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "WF",
+		"name": "Wallis and Futuna", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "WS",
+		"name": "Samoa", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "YE",
+		"name": "Yemen", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "YT",
+		"name": "Mayotte", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "ZA",
+		"name": "South Africa", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "ZM",
+		"name": "Zambia", 
+        "visited": "" 
+    },
+
+    { 
+        "id": "ZW",
+		"name": "Zimbabwe", 
+        "visited": "" 
+    }
+]

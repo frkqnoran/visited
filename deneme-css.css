@@ -1,0 +1,69 @@
+/* styles.css */
+#map-container {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 40px auto;
+    position: relative;
+}
+
+#world-map {
+    width: 100%;
+    height: auto;
+}
+
+.country-tooltip {
+    position: absolute;
+    background-color: #fdf5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: none;
+    z-index: 1000; /* Tooltip'in diğer içeriklerin üstünde olması için */
+    white-space: nowrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölgeli görünüm */
+    border-radius: 4px; /* Köşeleri yuvarlama */
+    max-width: 400px; /* Tooltip genişliğini sınırlamak için */
+    text-align: left; /* Metni sola hizalar */
+}
+
+.country-tooltip .tooltip-content {
+    display: flex;
+    align-items: center; /* İçerikleri dikeyde ortalar */
+}
+
+.country-tooltip .tooltip-content .flag {
+    width: 48px; /* Bayrağın boyutunu büyütün */
+    height: 36px; /* Bayrağın yüksekliğini büyütün */
+    margin-right: 10px; /* Bayrak ve ismi ayırmak için */
+}
+
+.country-tooltip .tooltip-content .name {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.country-tooltip .visited-text {
+    display: block;
+    text-align: center; /* "First time" metnini ortalar */
+    font-size: 18px;
+    color: #333;
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+    #map-container {
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+    .country-tooltip {
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    .country-tooltip .tooltip-content .flag {
+        width: 28px; /* Küçük ekranlarda bayrağın boyutunu ayarlayın */
+        height: 20px; /* Küçük ekranlarda bayrağın yüksekliğini ayarlayın */
+        margin-right: 5px; /* Bayrak ve ismi ayırmak için */
+    }
+}

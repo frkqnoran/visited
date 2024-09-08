@@ -1,0 +1,27 @@
+[
+    {
+        "title": "My First Blog Post",
+        "url": "blog-posts/post1.html",
+        "content": "This is the content of my first blog post. It contains several sentences and some interesting details about my journey."
+    },
+    {
+        "title": "Exploring New Technologies",
+        "url": "blog-posts/post2.html",
+        "content": "In this post, we explore new technologies that are shaping the future. From AI to quantum computing, we cover it all."
+    },
+    {
+        "title": "The Art of Precision Engineering",
+        "url": "blog-posts/post3.html",
+        "content": "Precision engineering is crucial for creating high-quality products. This post delves into the techniques and principles involved."
+    },
+    {
+        "title": "New Innovations in Engineering",
+        "url": "blog-posts/post4.html",
+        "content": "Discover the latest innovations in engineering and how they are revolutionizing various industries."
+    },
+    {
+        "title": "The Future of Technology",
+        "url": "blog-posts/post5.html",
+        "content": "What does the future hold for technology? We analyze upcoming trends and predictions."
+    }
+]

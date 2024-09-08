@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Skydiving",
+        "status": "Not Started",
+        "startTime": "2023-07-01",
+        "endTime": "2024-07-01",
+        "photoFilePath": "images/comp-photos/Screenshot_2.png"
+    },
+    {
+        "name": "Learn to Surf",
+        "status": "In Progress",
+        "startTime": "2023-05-01",
+        "endTime": "2024-03-01",
+        "photoFilePath": "images/comp-photos/Screenshot_2.png"
+    },
+    {
+        "name": "Skydiving",
+        "status": "Not Started",
+        "startTime": "2023-07-01",
+        "endTime": "2024-07-01",
+        "photoFilePath": "images/comp-photos/Screenshot_2.png"
+    },
+    {
+        "name": "Learn to Surf",
+        "status": "In Progress",
+        "startTime": "2023-05-01",
+        "endTime": "2024-03-01",
+        "photoFilePath": "images/comp-photos/Screenshot_2.png"
+    },
+    {
+        "name": "Skydiving1",
+        "status": "Not Started",
+        "startTime": "2023-07-01",
+        "endTime": "2024-07-01",
+        "photoFilePath": "images/comp-photos/Screenshot_2.png"
+    },
+    {
+        "name": "Learn to Surf12",
+        "status": "In Progress",
+        "startTime": "2023-05-01",
+        "endTime": "2024-03-01",
+        "photoFilePath": ""
+    },
+    {
+        "name": "Skydiving",
+        "status": "Not Started",
+        "startTime": "2023-07-01",
+        "endTime": "2024-07-01",
+        "photoFilePath": "images/comp-photos/Screenshot_2.png"
+    },
+    {
+        "name": "Learn to Surf",
+        "status": "In Progress",
+        "startTime": "2023-05-01",
+        "endTime": "2024-03-01",
+        "photoFilePath": "images/comp-photos/Screenshot_2.png"
+    },
+    {
+        "name": "Skydiving1",
+        "status": "Not Started",
+        "startTime": "2023-07-01",
+        "endTime": "2024-07-01",
+        "photoFilePath": "images/comp-photos/Screenshot_2.png"
+    },
+    {
+        "name": "Learn to Surf12",
+        "status": "In Progress",
+        "startTime": "2023-05-01",
+        "endTime": "2024-03-01",
+        "photoFilePath": "images/comp-photos/Screenshot_2.png"
+    }
+]
